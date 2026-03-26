@@ -1,29 +1,30 @@
-# 📸 Foto Verkleiner Pro
+# 📸 Image Shrinker Pro
 
-Een lichtgewicht, browser-gebaseerde applicatie om de bestandsgrootte van afbeeldingen te verkleinen zonder merkbaar kwaliteitsverlies. Geen uploads naar servers nodig; alles gebeurt veilig en privé op jouw eigen computer.
+A lightweight, browser-based application to reduce the file size of images without significant loss in quality. No server uploads required; everything happens securely and privately on your own computer.
 
-## ✨ Functionaliteiten
-- **Compressie in de browser:** Je privacy is gegarandeerd omdat foto's niet naar een server worden gestuurd.
-- **Slimme Optimalisatie:** Gebruikt de `browser-image-compression` bibliotheek voor de beste balans tussen grootte en kwaliteit.
-- **Snelheid:** Maakt gebruik van Web Workers voor razendsnelle verwerking zonder de browser te vertragen.
-- **Modern Design:** Een schone en responsieve interface gebouwd met CSS.
+## ✨ Features
+- **In-Browser Compression:** Your privacy is guaranteed because photos are never sent to a server.
+- **Smart Optimization:** Uses the `browser-image-compression` library for the best balance between size and quality.
+- **Performance:** Utilizes Web Workers for lightning-fast processing without freezing the browser UI.
+- **Modern Design:** A clean, responsive interface built with modern CSS.
 
-## 🚀 Hoe te gebruiken
-1. Clone deze repository of download de bestanden (`index.html`, `style.css`, `script.js`).
-2. Open `index.html` in je favoriete webbrowser (Chrome, Firefox, Edge, etc.).
-3. Selecteer een afbeelding via de 'Upload' knop.
-4. Wacht tot de verwerking klaar is en klik op **Download Verkleinde Foto**.
+## 🚀 How to Use
+1. Clone this repository or download the files.
+2. Ensure all files are in the same folder.
+3. Open `verkleiner.html` in your favorite web browser (Chrome, Firefox, Edge, etc.).
+4. Select an image using the 'Upload' button.
+5. Wait for the process to finish and click **Download Compressed Photo**.
 
-## 🛠️ Gebruikte Technologieën
-* **HTML5:** Structuur van de webpagina.
-* **CSS3:** Styling en animaties (Flexbox en Gradients).
-* **JavaScript (ES6+):** Logica, Async/Await en DOM-manipulatie.
-* **[browser-image-compression](https://www.npmjs.com/package/browser-image-compression):** De motor achter de beeldverwerking.
+## 🛠️ Built With
+* **HTML5:** Web page structure.
+* **CSS3:** Styling and layout (Flexbox & Gradients).
+* **JavaScript (ES6+):** Logic, Async/Await, and DOM manipulation.
+* **[browser-image-compression](https://www.npmjs.com/package/browser-image-compression):** The engine behind the image processing.
 
-## 📂 Projectstructuur
+## 📂 Project Structure
 ```text
 /
-├── verkleiner.html   # De hoofdstructuur van de website
-├── main.css    # De vormgeving en lay-out
-├── main.js     # De JavaScript-logica voor compressie
-└── README.md    # Deze handleiding
+├── verkleiner.html  # The main structure of the website
+├── main.css         # The design and layout
+├── main.js          # The JavaScript logic for compression
+└── README.md        # This manual
