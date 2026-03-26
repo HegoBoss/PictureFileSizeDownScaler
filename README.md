@@ -23,7 +23,7 @@ Een lichtgewicht, browser-gebaseerde applicatie om de bestandsgrootte van afbeel
 ## 📂 Projectstructuur
 ```text
 /
-├── index.html   # De hoofdstructuur van de website
-├── style.css    # De vormgeving en lay-out
-├── script.js     # De JavaScript-logica voor compressie
+├── verkleiner.html   # De hoofdstructuur van de website
+├── main.css    # De vormgeving en lay-out
+├── main.js     # De JavaScript-logica voor compressie
 └── README.md    # Deze handleiding
