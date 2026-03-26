@@ -1,0 +1,90 @@
+/* Basis instellingen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* De container van de verkleiner */
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    width: 90%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    font-size: 24px;
+}
+
+p {
+    color: #777;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+/* Styling voor het upload-veld */
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+    border-color: #764ba2;
+}
+
+/* Status tekst */
+#status {
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 14px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* De Download Knop */
+#downloadBtn {
+    display: none; /* Standaard verborgen */
+    background: #28a745;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.3s;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+}
+
+#downloadBtn:hover {
+    background: #218838;
+    transform: translateY(-2px);
+}
+
+#downloadBtn:active {
+    transform: translateY(0);
+}
